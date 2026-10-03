@@ -1,0 +1,18 @@
+:root{--bg:#f4f6fa;--card:#fff;--fg:#14181f;--mut:#6b7686;--acc:#3b6df0;--ok:#1fa971;--bad:#d64545;--line:#e3e8f0}
+@media(prefers-color-scheme:dark){:root:not([data-t=light]){--bg:#0f1218;--card:#181c25;--fg:#e8ecf3;--mut:#8b96a8;--line:#262c38}}
+:root[data-t=dark]{--bg:#0f1218;--card:#181c25;--fg:#e8ecf3;--mut:#8b96a8;--line:#262c38}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px system-ui,Segoe UI,sans-serif}
+header{display:flex;justify-content:space-between;align-items:center;padding:20px 28px}h1{margin:0;font-size:22px}
+main{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:18px;padding:0 28px 28px;max-width:1200px;margin:auto}
+.card{background:var(--card);border-radius:18px;padding:20px;box-shadow:0 1px 3px #0001}.wide{grid-column:1/-1}
+h2{margin:0 0 14px;font-size:16px;color:var(--mut);font-weight:600}
+.row{display:flex;align-items:center;gap:10px;padding:10px 0;border-top:1px solid var(--line)}.row:first-child{border-top:0}
+.row .n{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.row small{color:var(--mut);display:block}
+button,.btn{background:var(--acc);color:#fff;border:0;border-radius:10px;padding:8px 14px;cursor:pointer;font:inherit;display:inline-block}
+button.ghost{background:transparent;color:var(--mut);border:1px solid var(--line)}button.red{background:var(--bad)}
+.big{padding:14px 22px;border-radius:14px;font-weight:600;margin-bottom:10px}
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--mut);margin-right:8px}.dot.on{background:var(--ok)}
+.pin{margin:14px 0;padding:14px;border-radius:14px;background:var(--bg);text-align:center}.pin b{display:block;font-size:34px;letter-spacing:.25em;margin:4px 0}.pin small{color:var(--mut)}
+.bar{height:6px;border-radius:4px;background:var(--line);overflow:hidden;margin-top:4px}.bar i{display:block;height:100%;background:var(--acc)}
+.ok{color:var(--ok)}.err{color:var(--bad)}.empty{color:var(--mut);padding:8px 0}
+.qr{text-align:center;margin:12px 0}.qr img{border-radius:12px;background:#fff;padding:6px}.qr small{display:block;color:var(--mut)}.note{font-size:13px;margin:8px 0}

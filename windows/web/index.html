@@ -1,0 +1,17 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>OfflineShare</title><link rel="stylesheet" href="/web/style.css"></head><body>
+<header><h1>OfflineShare</h1><button id="theme" title="Toggle theme">◐</button></header>
+<main>
+<section class="card"><h2>Connection</h2><div id="conn"></div>
+ <div id="wifi" class="note"></div><div id="event" class="note"></div>
+ <div class="pin"><span>Pairing PIN</span><b id="pin">······</b><small id="pinTtl"></small></div>
+ <button class="ghost" id="unpair">Disconnect all</button> <button class="ghost" id="modeBtn"></button></section>
+<section class="card"><h2>Nearby devices</h2><div id="peers"></div>
+ <div id="qrbox" class="qr" hidden><img id="qr" alt="QR pairing code" width="190" height="190"><small>QR mode: scan with OfflineShare on your phone</small></div></section>
+<section class="card" id="incomingCard" hidden><h2>Incoming files</h2><div id="incoming"></div></section>
+<section class="card"><h2>Send to phone</h2>
+ <label class="btn big">📤 Select Files<input id="pick" type="file" multiple hidden></label>
+ <div id="outbox"></div></section>
+<section class="card"><h2>Received files</h2><div id="received"></div></section>
+<section class="card wide"><h2>Transfer history</h2><div id="history"></div></section>
+</main><script src="/web/app.js"></script></body></html>

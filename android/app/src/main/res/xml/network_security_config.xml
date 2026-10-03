@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Plain HTTP is used on the private Wi-Fi Direct link only. Every request is HMAC-signed and every file chunk
+     is AES-256-GCM encrypted by the app itself (see protocol/PROTOCOL.md). -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

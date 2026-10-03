@@ -1,0 +1,152 @@
+[
+ {
+  "ts": 1791053533.833084,
+  "filename": "IMG_20261003_233222.jpg",
+  "size": 128504,
+  "direction": "Phone \u2192 Laptop",
+  "device": "M2101K7BG",
+  "status": "Completed",
+  "sha256": "748bfa4b0a4eea881aae34504bb5340af73b1320af9992b74ca304b53b51f09a",
+  "duration": 28.37
+ },
+ {
+  "ts": 1791053570.2714615,
+  "filename": ".gitkeep",
+  "size": 0,
+  "direction": "Laptop \u2192 Phone",
+  "device": "M2101K7BG",
+  "status": "Sent (awaiting phone verification)",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "duration": 0
+ },
+ {
+  "ts": 1791053602.2298553,
+  "filename": ".gitkeep",
+  "size": 0,
+  "direction": "Laptop \u2192 Phone",
+  "device": "M2101K7BG",
+  "status": "Sent (awaiting phone verification)",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "duration": 0
+ },
+ {
+  "ts": 1791053605.4179256,
+  "filename": ".gitkeep",
+  "size": 0,
+  "direction": "Laptop \u2192 Phone",
+  "device": "M2101K7BG",
+  "status": "Sent (awaiting phone verification)",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "duration": 0
+ },
+ {
+  "ts": 1791053660.1983178,
+  "filename": "63913717845355 (1).png",
+  "size": 2513591,
+  "direction": "Laptop \u2192 Phone",
+  "device": "M2101K7BG",
+  "status": "Sent (awaiting phone verification)",
+  "sha256": "32ad197998e33ab336823147c5f6c10fea09691d45d2d3788e06a1ea62a54e77",
+  "duration": 0
+ },
+ {
+  "ts": 1791053660.5761397,
+  "filename": "63913717845355.png",
+  "size": 2513591,
+  "direction": "Laptop \u2192 Phone",
+  "device": "M2101K7BG",
+  "status": "Sent (awaiting phone verification)",
+  "sha256": "32ad197998e33ab336823147c5f6c10fea09691d45d2d3788e06a1ea62a54e77",
+  "duration": 0
+ },
+ {
+  "ts": 1791053660.7901404,
+  "filename": "USE CASE D.pdf",
+  "size": 317716,
+  "direction": "Laptop \u2192 Phone",
+  "device": "M2101K7BG",
+  "status": "Sent (awaiting phone verification)",
+  "sha256": "cb3cff9ce58bc5aaa53f93315f856ea4633d3971f7b00c37389f2199b7bb8da6",
+  "duration": 0
+ },
+ {
+  "ts": 1791053661.0900412,
+  "filename": ".gitkeep",
+  "size": 0,
+  "direction": "Laptop \u2192 Phone",
+  "device": "M2101K7BG",
+  "status": "Sent (awaiting phone verification)",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "duration": 0
+ },
+ {
+  "ts": 1791053848.5478902,
+  "filename": "HD-wallpaper-kakashi-anbu-iphone-kakashi-hatake-anbu.jpg",
+  "size": 72359,
+  "direction": "Phone \u2192 Laptop",
+  "device": "M2101K7BG",
+  "status": "Completed",
+  "sha256": "69b157329d41779e7d2320eff3a88f90d79d5567a9c6931fa4fc325aa54a127c",
+  "duration": 3.18
+ },
+ {
+  "ts": 1791053913.7115803,
+  "filename": "63913529237848.png",
+  "size": 3458933,
+  "direction": "Laptop \u2192 Phone",
+  "device": "M2101K7BG",
+  "status": "Sent (awaiting phone verification)",
+  "sha256": "86c7241114086f984188c382116e9da13d6bf7f04d088c4d2af9cb7c1d734bc6",
+  "duration": 0
+ },
+ {
+  "ts": 1791053914.361541,
+  "filename": "63913529271283.png",
+  "size": 3355908,
+  "direction": "Laptop \u2192 Phone",
+  "device": "M2101K7BG",
+  "status": "Sent (awaiting phone verification)",
+  "sha256": "9b9e7c4cab89f403bf63f229e50708728671c83215b6bed4f3c3caf68a527d50",
+  "duration": 0
+ },
+ {
+  "ts": 1791053914.928903,
+  "filename": "63913717845355 (1).png",
+  "size": 2513591,
+  "direction": "Laptop \u2192 Phone",
+  "device": "M2101K7BG",
+  "status": "Sent (awaiting phone verification)",
+  "sha256": "32ad197998e33ab336823147c5f6c10fea09691d45d2d3788e06a1ea62a54e77",
+  "duration": 0
+ },
+ {
+  "ts": 1791053915.562039,
+  "filename": "63913717845355.png",
+  "size": 2513591,
+  "direction": "Laptop \u2192 Phone",
+  "device": "M2101K7BG",
+  "status": "Sent (awaiting phone verification)",
+  "sha256": "32ad197998e33ab336823147c5f6c10fea09691d45d2d3788e06a1ea62a54e77",
+  "duration": 0
+ },
+ {
+  "ts": 1791053915.8654132,
+  "filename": "USE CASE D.pdf",
+  "size": 317716,
+  "direction": "Laptop \u2192 Phone",
+  "device": "M2101K7BG",
+  "status": "Sent (awaiting phone verification)",
+  "sha256": "cb3cff9ce58bc5aaa53f93315f856ea4633d3971f7b00c37389f2199b7bb8da6",
+  "duration": 0
+ },
+ {
+  "ts": 1791053916.4287293,
+  "filename": ".gitkeep",
+  "size": 0,
+  "direction": "Laptop \u2192 Phone",
+  "device": "M2101K7BG",
+  "status": "Sent (awaiting phone verification)",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "duration": 0
+ }
+]

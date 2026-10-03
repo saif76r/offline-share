@@ -1,0 +1,222 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.offlineshare.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-feature
+11-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:5:5-89
+12        android:name="android.hardware.wifi.direct"
+12-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:5:19-62
+13        android:required="true" />
+13-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:5:63-86
+14    <uses-feature
+14-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:6:5-85
+15        android:name="android.hardware.camera"
+15-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:6:19-57
+16        android:required="false" />
+16-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:6:58-82
+17
+18    <!-- INTERNET is required by Android for ANY socket, including local ones. The app never contacts the internet. -->
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:9:5-67
+19-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:9:22-64
+20    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+20-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:10:5-76
+20-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:10:22-73
+21    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+21-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:11:5-76
+21-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:11:22-73
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:12:5-79
+22-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:12:22-76
+23    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+23-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:13:5-79
+23-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:13:22-76
+24    <uses-permission android:name="android.permission.WAKE_LOCK" />
+24-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:14:5-68
+24-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:14:22-65
+25    <uses-permission android:name="android.permission.CAMERA" />
+25-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:15:5-65
+25-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:15:22-62
+26    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+26-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:16:5-77
+26-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:16:22-74
+27    <uses-permission
+27-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:17:5-106
+28        android:name="android.permission.ACCESS_FINE_LOCATION"
+28-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:17:22-76
+29        android:maxSdkVersion="32" />
+29-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:17:77-103
+30    <uses-permission
+30-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:18:5-19:79
+31        android:name="android.permission.NEARBY_WIFI_DEVICES"
+31-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:18:22-75
+32        android:usesPermissionFlags="neverForLocation" />
+32-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:19:9-55
+33
+34    <permission
+34-->[androidx.core:core:1.13.1] C:\Users\MSI\.gradle\caches\9.0.0\transforms\8c97d544f9fbff002fa0e9b4e2fe7242\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+35        android:name="com.offlineshare.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+35-->[androidx.core:core:1.13.1] C:\Users\MSI\.gradle\caches\9.0.0\transforms\8c97d544f9fbff002fa0e9b4e2fe7242\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+36        android:protectionLevel="signature" />
+36-->[androidx.core:core:1.13.1] C:\Users\MSI\.gradle\caches\9.0.0\transforms\8c97d544f9fbff002fa0e9b4e2fe7242\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+37
+38    <uses-permission android:name="com.offlineshare.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+38-->[androidx.core:core:1.13.1] C:\Users\MSI\.gradle\caches\9.0.0\transforms\8c97d544f9fbff002fa0e9b4e2fe7242\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+38-->[androidx.core:core:1.13.1] C:\Users\MSI\.gradle\caches\9.0.0\transforms\8c97d544f9fbff002fa0e9b4e2fe7242\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+39
+40    <uses-feature
+40-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MSI\.gradle\caches\9.0.0\transforms\e4a67cf076fe2d4a9a6291cd8b97a21d\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
+41        android:name="android.hardware.camera.front"
+41-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MSI\.gradle\caches\9.0.0\transforms\e4a67cf076fe2d4a9a6291cd8b97a21d\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
+42        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+42-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MSI\.gradle\caches\9.0.0\transforms\e4a67cf076fe2d4a9a6291cd8b97a21d\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
+43    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+44    <uses-feature
+44-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MSI\.gradle\caches\9.0.0\transforms\e4a67cf076fe2d4a9a6291cd8b97a21d\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
+45        android:name="android.hardware.camera.autofocus"
+45-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MSI\.gradle\caches\9.0.0\transforms\e4a67cf076fe2d4a9a6291cd8b97a21d\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
+46        android:required="false" />
+46-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MSI\.gradle\caches\9.0.0\transforms\e4a67cf076fe2d4a9a6291cd8b97a21d\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
+47    <uses-feature
+47-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MSI\.gradle\caches\9.0.0\transforms\e4a67cf076fe2d4a9a6291cd8b97a21d\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
+48        android:name="android.hardware.camera.flash"
+48-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MSI\.gradle\caches\9.0.0\transforms\e4a67cf076fe2d4a9a6291cd8b97a21d\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
+49        android:required="false" />
+49-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MSI\.gradle\caches\9.0.0\transforms\e4a67cf076fe2d4a9a6291cd8b97a21d\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
+50    <uses-feature
+50-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MSI\.gradle\caches\9.0.0\transforms\e4a67cf076fe2d4a9a6291cd8b97a21d\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
+51        android:name="android.hardware.screen.landscape"
+51-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MSI\.gradle\caches\9.0.0\transforms\e4a67cf076fe2d4a9a6291cd8b97a21d\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
+52        android:required="false" />
+52-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MSI\.gradle\caches\9.0.0\transforms\e4a67cf076fe2d4a9a6291cd8b97a21d\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
+53    <uses-feature
+53-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MSI\.gradle\caches\9.0.0\transforms\e4a67cf076fe2d4a9a6291cd8b97a21d\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
+54        android:name="android.hardware.wifi"
+54-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MSI\.gradle\caches\9.0.0\transforms\e4a67cf076fe2d4a9a6291cd8b97a21d\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
+55        android:required="false" />
+55-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MSI\.gradle\caches\9.0.0\transforms\e4a67cf076fe2d4a9a6291cd8b97a21d\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
+56
+57    <application
+57-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:21:5-33:19
+58        android:allowBackup="false"
+58-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:22:9-36
+59        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+59-->[androidx.core:core:1.13.1] C:\Users\MSI\.gradle\caches\9.0.0\transforms\8c97d544f9fbff002fa0e9b4e2fe7242\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+60        android:debuggable="true"
+61        android:extractNativeLibs="false"
+62        android:label="OfflineShare"
+62-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:23:9-37
+63        android:networkSecurityConfig="@xml/network_security_config"
+63-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:24:9-69
+64        android:supportsRtl="true"
+64-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:25:9-35
+65        android:testOnly="true"
+66        android:theme="@style/Theme.OfflineShare" >
+66-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:26:9-50
+67        <activity
+67-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:27:9-32:20
+68            android:name="com.offlineshare.app.MainActivity"
+68-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:27:19-47
+69            android:exported="true" >
+69-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:27:48-71
+70            <intent-filter>
+70-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:28:13-31:29
+71                <action android:name="android.intent.action.MAIN" />
+71-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:29:17-69
+71-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:29:25-66
+72
+73                <category android:name="android.intent.category.LAUNCHER" />
+73-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:30:17-77
+73-->C:\Users\MSI\Downloads\OfflineShare\android\app\src\main\AndroidManifest.xml:30:27-74
+74            </intent-filter>
+75        </activity>
+76
+77        <provider
+77-->[androidx.emoji2:emoji2:1.3.0] C:\Users\MSI\.gradle\caches\9.0.0\transforms\dfa171bec22766d39f10cb7aee7862e7\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+78            android:name="androidx.startup.InitializationProvider"
+78-->[androidx.emoji2:emoji2:1.3.0] C:\Users\MSI\.gradle\caches\9.0.0\transforms\dfa171bec22766d39f10cb7aee7862e7\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+79            android:authorities="com.offlineshare.app.androidx-startup"
+79-->[androidx.emoji2:emoji2:1.3.0] C:\Users\MSI\.gradle\caches\9.0.0\transforms\dfa171bec22766d39f10cb7aee7862e7\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+80            android:exported="false" >
+80-->[androidx.emoji2:emoji2:1.3.0] C:\Users\MSI\.gradle\caches\9.0.0\transforms\dfa171bec22766d39f10cb7aee7862e7\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+81            <meta-data
+81-->[androidx.emoji2:emoji2:1.3.0] C:\Users\MSI\.gradle\caches\9.0.0\transforms\dfa171bec22766d39f10cb7aee7862e7\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+82                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+82-->[androidx.emoji2:emoji2:1.3.0] C:\Users\MSI\.gradle\caches\9.0.0\transforms\dfa171bec22766d39f10cb7aee7862e7\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+83                android:value="androidx.startup" />
+83-->[androidx.emoji2:emoji2:1.3.0] C:\Users\MSI\.gradle\caches\9.0.0\transforms\dfa171bec22766d39f10cb7aee7862e7\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+84            <meta-data
+84-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\MSI\.gradle\caches\9.0.0\transforms\ad3b8402b9481964b95e6fd990aecdf1\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:29:13-31:52
+85                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+85-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\MSI\.gradle\caches\9.0.0\transforms\ad3b8402b9481964b95e6fd990aecdf1\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:30:17-78
+86                android:value="androidx.startup" />
+86-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\MSI\.gradle\caches\9.0.0\transforms\ad3b8402b9481964b95e6fd990aecdf1\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:31:17-49
+87            <meta-data
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\9.0.0\transforms\b364fa3aa3f9640cd3eaf4c8eade1c52\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+88                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\9.0.0\transforms\b364fa3aa3f9640cd3eaf4c8eade1c52\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+89                android:value="androidx.startup" />
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\9.0.0\transforms\b364fa3aa3f9640cd3eaf4c8eade1c52\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+90        </provider>
+91
+92        <receiver
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\9.0.0\transforms\b364fa3aa3f9640cd3eaf4c8eade1c52\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+93            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\9.0.0\transforms\b364fa3aa3f9640cd3eaf4c8eade1c52\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+94            android:directBootAware="false"
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\9.0.0\transforms\b364fa3aa3f9640cd3eaf4c8eade1c52\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+95            android:enabled="true"
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\9.0.0\transforms\b364fa3aa3f9640cd3eaf4c8eade1c52\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+96            android:exported="true"
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\9.0.0\transforms\b364fa3aa3f9640cd3eaf4c8eade1c52\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+97            android:permission="android.permission.DUMP" >
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\9.0.0\transforms\b364fa3aa3f9640cd3eaf4c8eade1c52\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+98            <intent-filter>
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\9.0.0\transforms\b364fa3aa3f9640cd3eaf4c8eade1c52\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+99                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\9.0.0\transforms\b364fa3aa3f9640cd3eaf4c8eade1c52\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\9.0.0\transforms\b364fa3aa3f9640cd3eaf4c8eade1c52\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+100            </intent-filter>
+101            <intent-filter>
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\9.0.0\transforms\b364fa3aa3f9640cd3eaf4c8eade1c52\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+102                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\9.0.0\transforms\b364fa3aa3f9640cd3eaf4c8eade1c52\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\9.0.0\transforms\b364fa3aa3f9640cd3eaf4c8eade1c52\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+103            </intent-filter>
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\9.0.0\transforms\b364fa3aa3f9640cd3eaf4c8eade1c52\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+105                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\9.0.0\transforms\b364fa3aa3f9640cd3eaf4c8eade1c52\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\9.0.0\transforms\b364fa3aa3f9640cd3eaf4c8eade1c52\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+106            </intent-filter>
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\9.0.0\transforms\b364fa3aa3f9640cd3eaf4c8eade1c52\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+108                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\9.0.0\transforms\b364fa3aa3f9640cd3eaf4c8eade1c52\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\9.0.0\transforms\b364fa3aa3f9640cd3eaf4c8eade1c52\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+109            </intent-filter>
+110        </receiver>
+111
+112        <activity
+112-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MSI\.gradle\caches\9.0.0\transforms\e4a67cf076fe2d4a9a6291cd8b97a21d\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+113            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+113-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MSI\.gradle\caches\9.0.0\transforms\e4a67cf076fe2d4a9a6291cd8b97a21d\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
+114            android:clearTaskOnLaunch="true"
+114-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MSI\.gradle\caches\9.0.0\transforms\e4a67cf076fe2d4a9a6291cd8b97a21d\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+115            android:screenOrientation="sensorLandscape"
+115-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MSI\.gradle\caches\9.0.0\transforms\e4a67cf076fe2d4a9a6291cd8b97a21d\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+116            android:stateNotNeeded="true"
+116-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MSI\.gradle\caches\9.0.0\transforms\e4a67cf076fe2d4a9a6291cd8b97a21d\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+117            android:theme="@style/zxing_CaptureTheme"
+117-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MSI\.gradle\caches\9.0.0\transforms\e4a67cf076fe2d4a9a6291cd8b97a21d\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+118            android:windowSoftInputMode="stateAlwaysHidden" />
+118-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\MSI\.gradle\caches\9.0.0\transforms\e4a67cf076fe2d4a9a6291cd8b97a21d\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+119    </application>
+120
+121</manifest>
